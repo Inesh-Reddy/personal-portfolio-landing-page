@@ -1,3 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #f5f5f5;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  padding: 10px;
+  height: 100vh;
+  background-color: gainsboro;
+}
+
 .landing-page-section {
   color: blue;
+}
+
+.portfolio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.logo-header img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-header-list li {
+  padding: 20px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.nav-header-list li:hover {
+  color: aquamarine;
+}
+
+.intro-span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.desc-span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.introduction {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.cta button {
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  font-family: monospace;
+  background-color: darkgray;
+}
+
+.cta button:hover {
+  background-color: aquamarine;
 }
